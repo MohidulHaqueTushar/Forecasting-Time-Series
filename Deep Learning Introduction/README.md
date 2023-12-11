@@ -13,7 +13,7 @@ Two main reasons why deep learning has gained a lot of ground in the last two de
 
 - Computational availability: the introduction of GPUs provided the much-needed boost to the widespread use of deep learning and accelerated the progress in the field. <br>
 
-- Data availability: if we keep increasing the data that we provide to a deep learning model, the model will be able to learn better and better functions.
+- Data availability: if we keep increasing the data that we provide to a deep learning model, the model will be able to learn better and better functions. with more data, deep learning starts to outperform traditional machine learning.
   
 Deep learning versus traditional machine learning as we increase the data size:
 
