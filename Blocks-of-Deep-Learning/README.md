@@ -19,17 +19,20 @@ Deep learning has gained a lot of popularity because of the two main reasons:
     • With more data, deep learning starts to outperform traditional machine learning <br>
 
 ## Perceptron
-The fundamental unit of the human brain is called a neuron. Perceptron is the fundamental building block
+The fundamental unit of the human brain is called a neuron.<br> 
+![neuron](https://github.com/MohidulHaqueTushar/lmg_link/blob/main/analyze-time_series/01/neuron.JPG)
+<br>Perceptron is the fundamental building block
 of all neural networks. Perceptron is designed to mimic a neuron. <br>
-
+![Perceptron](https://github.com/MohidulHaqueTushar/lmg_link/blob/main/analyze-time_series/01/perceptron.JPG)
+<br>
 Perceptron has the following components: <br>
-  • Inputs: Real-valued inputs that are fed to a Perceptron. This is like the dendrites in neurons that
+  - Inputs: Real-valued inputs that are fed to a Perceptron. This is like the dendrites in neurons that
 collect the input.<br>
-  • Weighted Sum: Each input is multiplied by a corresponding weight and summed up. The weights
+  - Weighted Sum: Each input is multiplied by a corresponding weight and summed up. The weights
 determine the importance of each input in determining the outcome. It is like soma in a neuron. <br>
-  • Non-linearity: The weighted sum goes through a non-linear function. This is like Axon Hillock in a
+  - Non-linearity: The weighted sum goes through a non-linear function. This is like Axon Hillock in a
 neuron. <br>
-  • Output: It supplies the output as Synapses. <br>
+  - Output: It supplies the output as Synapses. <br>
 
 ## Deep Learning System Components
 Deep learning can be thought of as a system that takes in raw input data through a series of linear and
@@ -43,6 +46,7 @@ change, to arrive at the desired output. <br>
 To optimize these kinds of systems, we predominantly use gradient-based optimization methods. These
 parameterized modules should be differentiable functions. The most popular deep learning system paradigm
 starts with raw input data. The raw input data goes through blocks of linear and non-linear functions.<br>
+![DLSystem](https://github.com/MohidulHaqueTushar/lmg_link/blob/main/analyze-time_series/01/deep_learning_system.JPG)
 
 ## Representation Learning Block
 This is the first block of the deep learning system, consisting of linear transformation and non-linear activation
@@ -52,6 +56,7 @@ the problem linearly separable. The representation learning block may have multi
 functions stacked on top of each other and the overall function of the block is to learn a function, which
 transforms the raw input into good features that make the problem linearly separable. The representation
 learning block learns the right transformations, which makes the task easier.We can see there is a linear transformation and a non-linear activation function in a representation learning block. <br>
+![RL](https://github.com/MohidulHaqueTushar/lmg_link/blob/main/analyze-time_series/01/non-linear_to_linear.JPG)
 
 ### Linear Transformation
 Linear transformations are simply matrix multiplications that transform the input vector space, the heart
@@ -155,6 +160,7 @@ gradient descent: <br>
 
 At first we need an idea about:
   - Encoder-decoder paradigm <br>
+  
 The following special structure can be used as an Encoder or a Decoder: <br> 
   - Feed-forward neural networks
   - Recurrent neural networks
