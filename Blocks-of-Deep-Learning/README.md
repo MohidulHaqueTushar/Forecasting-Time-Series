@@ -20,10 +20,10 @@ Deep learning has gained a lot of popularity because of the two main reasons:
 
 ## Perceptron
 The fundamental unit of the human brain is called a neuron.<br> 
-![neuron](https://github.com/MohidulHaqueTushar/lmg_link/blob/main/analyze-time_series/01/neuron.JPG)
+![neuron](https://github.com/MohidulHaqueTushar/Forecasting-Time-Series/blob/main/Blocks-of-Deep-Learning/Image/neuron.JPG)
 <br>Perceptron is the fundamental building block
 of all neural networks. Perceptron is designed to mimic a neuron. <br>
-![Perceptron](https://github.com/MohidulHaqueTushar/lmg_link/blob/main/analyze-time_series/01/perceptron.JPG)
+![Perceptron](https://github.com/MohidulHaqueTushar/Forecasting-Time-Series/blob/main/Blocks-of-Deep-Learning/Image/perceptron.JPG)
 <br>
 Perceptron has the following components: <br>
   - Inputs: Real-valued inputs that are fed to a Perceptron. This is like the dendrites in neurons that
@@ -46,7 +46,7 @@ change, to arrive at the desired output. <br>
 To optimize these kinds of systems, we predominantly use gradient-based optimization methods. These
 parameterized modules should be differentiable functions. The most popular deep learning system paradigm
 starts with raw input data. The raw input data goes through blocks of linear and non-linear functions.<br>
-![DLSystem](https://github.com/MohidulHaqueTushar/lmg_link/blob/main/analyze-time_series/01/deep_learning_system.JPG)
+![DLSystem](https://github.com/MohidulHaqueTushar/Forecasting-Time-Series/blob/main/Blocks-of-Deep-Learning/Image/deep_learning_system.JPG)
 
 ## Representation Learning Block
 This is the first block of the deep learning system, consisting of linear transformation and non-linear activation
@@ -56,7 +56,7 @@ the problem linearly separable. The representation learning block may have multi
 functions stacked on top of each other and the overall function of the block is to learn a function, which
 transforms the raw input into good features that make the problem linearly separable. The representation
 learning block learns the right transformations, which makes the task easier.We can see there is a linear transformation and a non-linear activation function in a representation learning block. <br>
-![RL](https://github.com/MohidulHaqueTushar/lmg_link/blob/main/analyze-time_series/01/non-linear_to_linear.JPG)
+![RL](https://github.com/MohidulHaqueTushar/Forecasting-Time-Series/blob/main/Blocks-of-Deep-Learning/Image/non-linear_to_linear.JPG)
 
 ### Linear Transformation
 Linear transformations are simply matrix multiplications that transform the input vector space, the heart
@@ -160,6 +160,7 @@ gradient descent: <br>
 
 At first we need an idea about:
   - Encoder-decoder paradigm <br>
+  ![EnDe](https://github.com/MohidulHaqueTushar/Forecasting-Time-Series/blob/main/Blocks-of-Deep-Learning/Image/encoder_decoder.JPG)
   
 The following special structure can be used as an Encoder or a Decoder: <br> 
   - Feed-forward neural networks
@@ -167,3 +168,8 @@ The following special structure can be used as an Encoder or a Decoder: <br>
   - Long short-term memory (LSTM) networks
   - Gated recurrent unit (GRU)
   - Convolution networks (CNN)
+
+The output result of the project [FFNs for Air Passanger Data](https://github.com/MohidulHaqueTushar/Forecasting-Time-Series/blob/main/Blocks-of-Deep-Learning/FFn_AirPassangerDataset.ipynb) are shown below:
+
+<img src="https://github.com/MohidulHaqueTushar/Forecasting-Time-Series/blob/main/Blocks-of-Deep-Learning/Image/Original%20and%20Predicted%20Trends.png" alt="output" width="500"/>
+
